@@ -68,3 +68,28 @@ Classes contain:
 ### Initialization Blocks
 - **Initialization blocks** run during object creation and are independent of specific constructors.
 - They cannot receive parameters and execute regardless of which constructor is used.
+
+
+## Key Points on Static Members in Java
+
+### 1. Static Members Overview
+- **Static members** are class-wide, shared across all instances of a class.
+- Indicated by the `static` keyword in their declaration.
+
+### 2. Static Fields
+- A **static field** is not associated with any specific instance of the class.
+- All instances of the class access the **same** static field value.
+
+### 3. Static Methods
+- **Static methods** perform actions not tied to an instance but to the class itself.
+- Static methods can only access **static fields** and **other static methods**.
+
+### 4. Static Import
+- The **static import** statement provides a shorthand for accessing static methods.
+- Allows you to use static methods without prefixing them with their class name.
+
+### 5. Static Initialization Blocks
+- **Static initialization blocks** allow for one-time type initialization.
+- The code inside these blocks runs **before** the type’s first use, making them ideal for setup tasks.
+
+
